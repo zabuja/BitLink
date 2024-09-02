@@ -17,11 +17,6 @@ const Url = mongoose.model('Url', new mongoose.Schema({
 // Middleware to parse JSON requests
 app.use(express.json());
 
-
-
-
-
-
 // mongoose.connect('mongodb://localhost/urlShortener', {
 //     useNewUrlParser: true, 
 //     useUnifiedTopology: true
